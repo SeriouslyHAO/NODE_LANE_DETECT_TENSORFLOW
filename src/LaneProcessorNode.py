@@ -1,17 +1,10 @@
 #!/usr/bin/env python
 
-
-# ROS
 import rospy
-
 import cv2
-
 from sensor_msgs.msg import Image
-
 from cv_bridge import CvBridge, CvBridgeError
-
 from LaneProcessor4 import LaneProcessor
-
 
 
 class LaneProcessorNode(object):
@@ -34,7 +27,6 @@ class LaneProcessorNode(object):
         rospy.spin()
 
 
-
     def rgb_callback(self, data):
         """
         Callback for RGB images
@@ -45,23 +37,13 @@ class LaneProcessorNode(object):
             # .publish(self._cv_bridge.cv2_to_imgmsg(image_np, "bgr8"))
             # Convert image to numpy array
             cv_image = self._bridge.imgmsg_to_cv2(data, "bgr8")
-
+            
             image_segmented,image_segmented_blended=self._lane_processor.process(cv_image)
-
-
-
             self.pub_image_segmented.publish(self._bridge.cv2_to_imgmsg(image_segmented, "bgr8"))
-
             self.pub_image_segmented_blended.publish(self._bridge.cv2_to_imgmsg(image_segmented_blended, "bgr8"))
-
-
-
-
-
 
         except CvBridgeError as e:
             print(e)
-
 
 
 if __name__ == '__main__':
