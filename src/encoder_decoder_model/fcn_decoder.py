@@ -1,10 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# @Time    : 18-1-29 下午2:38
-# @Author  : Luo Yao
-# @Site    : https://github.com/MaybeShewill-CV/lanenet-lane-detection
-# @File    : fcn_decoder.py
-# @IDE: PyCharm Community Edition
+
 """
 实现一个全卷积网络解码类
 """

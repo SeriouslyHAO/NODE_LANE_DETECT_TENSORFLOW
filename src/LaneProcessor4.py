@@ -1,13 +1,6 @@
 #!/usr/bin/env python
 
-"""
-Detector class to use TensorFlow detection API
 
-The codes are from TensorFlow/Models Repo. I just transferred the code to
-ROS.
-
-Cagatay Odabasi
-"""
 
 import numpy as np
 import tensorflow as tf

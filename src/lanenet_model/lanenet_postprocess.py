@@ -1,12 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# @Time    : 18-5-30 上午10:04
-# @Author  : Luo Yao
-# @Site    : https://github.com/MaybeShewill-CV/lanenet-lane-detection
-# @File    : lanenet_postprocess.py
-# @IDE: PyCharm Community Edition
+
 """
-LaneNet模型后处理
+模型后处理
 """
 import numpy as np
 import matplotlib.pyplot as plt

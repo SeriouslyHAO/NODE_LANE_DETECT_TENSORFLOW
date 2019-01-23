@@ -1,10 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# @Time    : 18-2-1 下午1:43
-# @Author  : Luo Yao
-# @Site    : https://github.com/MaybeShewill-CV/lanenet-lane-detection
-# @File    : dense_encoder.py
-# @IDE: PyCharm Community Edition
+
 """
 实现一个基于DenseNet的编码器
 """

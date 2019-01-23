@@ -1,12 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# @Time    : 18-5-21 上午11:38
-# @Author  : Luo Yao
-# @Site    : http://icode.baidu.com/repos/baidu/personal-code/Luoyao
-# @File    : lanenet_hnet_model.py
-# @IDE: PyCharm Community Edition
+
 """
-LaneNet中的HNet模型
+HNet模型
 """
 import tensorflow as tf
 

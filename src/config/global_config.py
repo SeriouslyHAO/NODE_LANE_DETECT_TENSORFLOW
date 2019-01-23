@@ -1,10 +1,5 @@
 #!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-# @Time    : 18-1-31 上午11:21
-# @Author  : Luo Yao
-# @Site    : https://github.com/MaybeShewill-CV/lanenet-lane-detection
-# @File    : global_config.py
-# @IDE: PyCharm Community Edition
+
 """
 设置全局变量
 """

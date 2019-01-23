@@ -1,12 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# @Time    : 18-5-15 下午4:29
-# @Author  : Luo Yao
-# @Site    : https://github.com/MaybeShewill-CV/lanenet-lane-detection
-# @File    : lanenet_cluster.py
-# @IDE: PyCharm Community Edition
+
 """
-实现LaneNet中实例分割的聚类部分
+实现实例分割的聚类部分
 """
 import numpy as np
 import glog as log

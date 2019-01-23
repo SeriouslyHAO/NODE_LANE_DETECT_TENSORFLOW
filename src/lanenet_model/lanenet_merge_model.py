@@ -1,12 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# @Time    : 18-5-11 下午5:28
-# @Author  : Luo Yao
-# @Site    : https://github.com/MaybeShewill-CV/lanenet-lane-detection
-# @File    : lanenet_merge_model.py
-# @IDE: PyCharm Community Edition
+
 """
-实现LaneNet模型
+实现模型
 """
 import tensorflow as tf
 

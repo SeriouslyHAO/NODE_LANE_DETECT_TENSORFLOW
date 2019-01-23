@@ -1,10 +1,5 @@
 #!/usr/bin/env python
-"""
-A ROS node to detect objects via TensorFlow Object Detection API.
 
-Author:
-    Cagatay Odabasi -- cagatay.odabasi@ipa.fraunhofer.de
-"""
 
 # ROS
 import rospy

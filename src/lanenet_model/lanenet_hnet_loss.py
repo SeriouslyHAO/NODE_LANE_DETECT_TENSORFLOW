@@ -1,12 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# @Time    : 18-5-21 下午1:12
-# @Author  : Luo Yao
-# @Site    : http://icode.baidu.com/repos/baidu/personal-code/Luoyao
-# @File    : lanenet_hnet_loss.py
-# @IDE: PyCharm Community Edition
+
 """
-实现LaneNet的HNet损失函数
+实现HNet损失函数
 """
 import tensorflow as tf
 
